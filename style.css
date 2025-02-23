@@ -48,10 +48,13 @@ footer {
 }
 
 @media (max-width: 690px) {
-  .logo{width: 15%;}
+  .logo{width: 15%;
+  height: fit-content;}
   h1{font-size: 2rem;}
   .card{width: 100%;}
-  .tile-image{width: 150px;}
+  .tile-image{width: 100%;
+    height: fit-content;
+  display: block;}
   .card-title{font-size: 1rem;}
   .card-text{font-size: 14px;}
   footer{font-size: 10px;}
