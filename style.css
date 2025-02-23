@@ -10,12 +10,47 @@ body {
   flex: 1;
 }
 
+.card-title{color:#243642 ;}
+.card-text{color:#243642 ;}
+
+.logo{
+  height: fit-content;
+  width: 30%;
+}
+
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  color:#243642 ;
+}
+
+.card{
+  width: 45%; 
+  display: inline-block;
+  margin: 15px;
+}
+
+.tile-image{
+  float: left;
+  height: fit-content;
+  width: 200px;
+  margin: 10px;
 }
 
 footer {
   text-align: right;
-  color: midnightblue;
+  text-align: center;
+  color: aliceblue;
+  background-color: #243642;
+  font-size: small;
+
 }
 
+@media (max-width: 690px) {
+  .logo{width: 15%;}
+  h1{font-size: 2rem;}
+  .card{width: 100%;}
+  .tile-image{width: 150px;}
+  .card-title{font-size: 1rem;}
+  .card-text{font-size: 14px;}
+  footer{font-size: 10px;}
+}
