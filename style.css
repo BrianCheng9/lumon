@@ -77,6 +77,7 @@ footer {
   .card-title {
     font-size: 1.2rem;
     text-align: center;
+    display: block;
   }
 
   .card-text {
