@@ -48,17 +48,43 @@ footer {
 }
 
 @media (max-width: 690px) {
-  .logo{width: 15%;
-  height: fit-content;}
-  h1{font-size: 2rem;}
-  .card{width: 100%;}
-  .tile-image{
-    width: 100%;
-    height: fit-content;
-    display: block;
-    clear: both;
+  .logo {
+    width: 20%;
+    max-width: 80px;
+    height: auto;
   }
-  .card-title{font-size: 1rem;}
-  .card-text{font-size: 14px;}
-  footer{font-size: 10px;}
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .tile-image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 10px;
+  }
 }
